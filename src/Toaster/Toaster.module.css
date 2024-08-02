@@ -1,0 +1,79 @@
+.toaster {
+  position: fixed;
+  padding: 10px;
+  display: flex;
+  color: #fff;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+  line-height: 0.9;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+  margin: 20px;
+}
+
+.info {
+  background-color: #5069c3;
+}
+
+.warning {
+  background-color: #ffb700;
+}
+
+.success {
+  background-color: #006400;
+}
+
+.danger {
+  background-color: #ff4c00;
+}
+
+.topLeft {
+  left: 0;
+  top: 0;
+}
+
+.topRight {
+  right: 0;
+  top: 0;
+}
+
+.bottomRight {
+  right: 0;
+  bottom: 0;
+}
+
+.bottomLeft {
+  left: 0;
+  bottom: 0;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.fade {
+  animation: fade 0.3s ease-in-out;
+}
+
+.slide {
+  animation: slide 0.3s ease-in-out;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
