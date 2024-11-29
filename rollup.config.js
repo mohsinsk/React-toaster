@@ -11,12 +11,14 @@ export default {
     {
       file: "dist/index.js",
       format: "cjs",
-      sourcemap: true,
+      sourcemap: true, // Enable sourcemaps
+      sourcemapExcludeSources: true, // Exclude inline sources
     },
     {
       file: "dist/index.esm.js",
       format: "esm",
       sourcemap: true,
+      sourcemapExcludeSources: true,
     },
   ],
   plugins: [
@@ -37,7 +39,11 @@ export default {
         sourceMap: true, // Generate source maps for debugging
     }),
     commonjs(), // Handle CommonJS dependencies
-    terser(), // Minify the JavaScript output
+    terser({
+      format: {
+        comments: false, // Remove comments
+      },
+    }),// Minify the JavaScript output
   ],
   external: ["react", "react-dom"], // Mark React as external
 };

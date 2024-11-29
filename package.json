@@ -1,6 +1,6 @@
 {
   "name": "react-toaster-library",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "React library for creating toasters",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
