@@ -1,5 +1,5 @@
 {
-  "name": "react-toaster-libary",
+  "name": "react-toaster-library",
   "version": "1.0.3",
   "description": "React library for creating toasters",
   "main": "src/index.js",

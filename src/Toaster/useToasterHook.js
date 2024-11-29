@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from "react";
+import React, { useState, useCallback, useRef } from "react";
 import ToasterComponent from "./ToaterComponent";
 
 export default function useToasterHook() {
