@@ -1,6 +1,6 @@
 {
   "name": "react-toaster-library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React library for creating toasters",
   "main": "src/index.js",
   "author": {
