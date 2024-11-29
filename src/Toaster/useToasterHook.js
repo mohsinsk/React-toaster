@@ -6,7 +6,7 @@ export default function useToasterHook() {
   let timerRef = useRef(0);
 
   const trigger = useCallback((details) => {
-    clearTimeout(timerRef?.current);
+    clearTimeout(timerRef.current);
     setToasterDetails(details);
 
     if (details.duration) {
