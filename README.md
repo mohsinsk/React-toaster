@@ -118,10 +118,10 @@ Contributions are welcome! If you have ideas for new features, improvements, or 
 
 Steps to Contribute:
 
-	1.	Fork this repository.
-	2.	Create a new branch for your feature or bugfix.
-	3.	Commit your changes with a clear message.
-	4.	Push your branch and create a pull request.
+* Fork this repository.
+* Create a new branch for your feature or bugfix.
+* Commit your changes with a clear message.
+* Push your branch and create a pull request.
 
 ---
 
@@ -155,7 +155,7 @@ THE SOFTWARE.
 
 ### Author
 
-Maintained by Mohsin Shaikh.
+Maintained by [Mohsin Shaikh](https://github.com/mohsinsk)
 
 ---
 
